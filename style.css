@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Layout */
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockbox,
+#clock {
+    width: 100%;
+}
+
+.circle {
+    fill: white;
+    stroke: #444;
+    stroke-width: 8;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.mid-circle {
+    fill: #000;
+}
+.hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    stroke: #222;
+    stroke-width: 12;
+}
+
+.minute-arm {
+    stroke: #333;
+    stroke-width: 8;
+}
+
+.second-arm {
+    stroke: red;
+    stroke-width: 2;
+}
+
+
+/* Caixa transparente que certifica-se que os ponteiros estão corretamente centralizados*/
+.sizing-box {
+    fill: none;
+}
+
+/* Faz com que os ponteiros caminhem ao redor do mesmo ponto central */
+/* Opcional: Use transition para criar animação */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    /* transition: transform .5s ease-in-out; */
+}

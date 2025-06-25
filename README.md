@@ -49,19 +49,22 @@ Este é um projeto **estático** (HTML, CSS e JavaScript puro), portanto **não 
 
 Para testar localmente, siga os passos abaixo:
 
-### 1️⃣ Clone o repositório
+### **1️⃣ Clone o repositório**
 
-```bash```
-git clone https://github.com/isahpao/relogio-analogico
+```bash
+git clone https://github.com/isahpao/relogico-analogico
 
+```
 
 ### **2️⃣ Acesse a pasta do projeto**
 
-```bash```
+```bash
+
 cd relogio-analogico
+
+```
 
 ### **3️⃣ Execute o projeto**
 
 Abra o arquivo index.html diretamente no navegador
 ou utilize uma extensão como o Live Server no VS Code para uma visualização mais dinâmica.
-
